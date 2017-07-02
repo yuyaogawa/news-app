@@ -1,0 +1,1 @@
+This is a news app that analyze documents whether it makes us happy or not.
