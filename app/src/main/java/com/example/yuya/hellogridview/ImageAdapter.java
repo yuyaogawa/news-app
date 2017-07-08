@@ -50,6 +50,6 @@ public class ImageAdapter extends BaseAdapter {
     private Integer[] mThumbIds = {
             R.drawable.bbcnews, R.drawable.bloomberg,
             R.drawable.nationalgeo, R.drawable.financialtimes,
-            R.drawable.cnn
+            R.drawable.cnn,R.drawable.wsj
     };
 }

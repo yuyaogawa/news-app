@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private static String financialtimes = "http://newsapi.org/v1/articles?source=financial-times&sortBy=latest&apiKey=144dd64c47c541738c17bec4a2656295";
     private static String cnn = "http://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=144dd64c47c541738c17bec4a2656295";
     private static String url;
+    private static String wsj = "http://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey=144dd64c47c541738c17bec4a2656295";
     private static String title;
     ArrayList<HashMap<String, String>> contactList;
 
@@ -55,9 +56,12 @@ public class MainActivity extends AppCompatActivity {
         } else if(selected_url.equals("3")){
             url = financialtimes;
             title = "Financial Times";
-        } else{
+        } else if(selected_url.equals("4")){
             url = cnn;
             title = "CNN";
+        } else{
+            url = wsj;
+            title = "The Wall Street Journal";
         }
         setTitle(title);
 
